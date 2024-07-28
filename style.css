@@ -1,75 +1,253 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
- 
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
- *{
+
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
  }
 
- .container  {
+ .container {
     width: 85%;
     margin: 0 auto;
  }
 
- .logo h2{
+ .logo h2 {
     color: #E6533C;
  }
 
- .navbar{
+ .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
  }
 
- .nav_items{
+ .nav_items {
     display: flex;
     justify-content: space-around;
     align-items: center;
  }
 
- .nav_items p{
+ .nav_items p {
     margin-right: 30px;
  }
 
- .nav_items p a{
+ .nav_items p a {
     text-decoration: none;
  }
 
- .hamburger{
+ .hamburger {
     display: none;
  }
+ 
+ .hamburger i{
+   color: white;
+ }
 
+ header {
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);*/
 
- header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.917);
+ }
+
+ .nav_items {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 7px 8px;
  }
 
 
- .nav_items p a{
+
+ .nav_items p a {
     color: white;
     font-size: 14px;
+
+
  }
 
- .active{
+ .active {
     background-color: #E6533C;
     padding: 7px 15px;
     border-radius: 46px;
  }
+
+ .hero {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    height: 91vh;
+ }
+
+
+ .hero_text h1 {
+    color: white;
+    font-size: 3.7rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+ }
+
+ .hero_text p {
+    color: #ffffff80;
+    margin-bottom: 16px;
+ }
+
+ .extra_font {
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+ }
+
+ .hero_btn {
+    display: flex;
+    justify-content: around;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .hero_btn button {
+    padding: 12px 25px;
+    font-size: 14px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+ .hero_btn button:first-child {
+    background-color: #E6533C;
+    border: none;
+
+ }
+
+ .hero_btn button:last-child {
+
+    border: 1px solid rgb(255, 255, 255);
+    background-color: Transparent;
+
+
+ }
+
+ .hero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ .hero_img {
+    position: relative;
+ }
+
+ .hero_img img {
+    width: 100%;
+    height: auto;
+ }
+
+ .tol_tip_1 {
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    position: absolute;
+    right: -26%;
+    top: 20%;
+ }
+
+ .tol_tip_1 h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+ }
+
+ .tol_tip_1,.tol_right p {
+    color: rgba(255, 255, 255, 0.65);
+
+ }
+
+ .tol_tip_2 {
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    bottom: 10%;
+    left: -25%;
+ }
+
+ .tol_left i {
+    color: #E6533C;
+ }
+
+ .tol_right h2{
+   color: white;
+   font-size: 40px;
+   font-weight: 900;
+ }
+
+
 
 
 
  /* media query ___  */
 
 
- @media only screen and (max-width: 576px){
-	.hamburger{
-        display: block;
+ @media only screen and (max-width: 576px) {
+    .hamburger {
+       display: block;
     }
-    .nav_items{
-        display: none;
+
+    .nav_items {
+       display: none;
     }
-}
+
+    .hero_section{
+      flex-direction: column;
+    }
+    .hero{
+      height: 100vh;
+    }
+    .hero_img{
+      width: 92%;
+    }
+
+    .tol_tip_1{
+        width: 146px;
+        height: 76px;
+        right: -5%;
+    }
+    .tol_tip_1 h2{
+      font-size: 30px;
+    }
+    .tol_tip_1 p{
+      font-size: 10.5px;
+    }
+    
+    .tol_tip_2{
+      width: 146px;
+      height: 76px;
+    }
+    .tol_right h2{
+      font-size: 30px;
+    }
+
+    .tol_right p{
+      font-size: 10.5px;
+    }
+
+    .tol_tip_2{
+       left: -5%;
+    }
+    
+ }
