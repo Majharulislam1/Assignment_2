@@ -3,15 +3,20 @@
 
 
  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
     font-family: "Inter", sans-serif;
  }
 
  .container {
-    width: 85%;
+    width : 85%;
     margin: 0 auto;
+ }
+
+ .divider {
+    padding         : 50px;
+    background-color: #000000;
  }
 
  .logo h2 {
@@ -19,16 +24,16 @@
  }
 
  .navbar {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
+    align-items    : center;
+    padding        : 20px 0px;
  }
 
  .nav_items {
-    display: flex;
+    display        : flex;
     justify-content: space-around;
-    align-items: center;
+    align-items    : center;
  }
 
  .nav_items p {
@@ -42,9 +47,9 @@
  .hamburger {
     display: none;
  }
- 
- .hamburger i{
-   color: white;
+
+ .hamburger i {
+    color: white;
  }
 
  header {
@@ -54,15 +59,15 @@
  }
 
  .nav_items {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border       : 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    padding: 7px 8px;
+    padding      : 7px 8px;
  }
 
 
 
  .nav_items p a {
-    color: white;
+    color    : white;
     font-size: 14px;
 
 
@@ -70,66 +75,66 @@
 
  .active {
     background-color: #E6533C;
-    padding: 7px 15px;
-    border-radius: 46px;
+    padding         : 7px 15px;
+    border-radius   : 46px;
  }
 
  .hero {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    height: 91vh;
+    height    : 91vh;
  }
 
 
  .hero_text h1 {
-    color: white;
-    font-size: 3.7rem;
-    font-weight: 900;
+    color        : white;
+    font-size    : 3.7rem;
+    font-weight  : 900;
     margin-bottom: 16px;
  }
 
  .hero_text p {
-    color: #ffffff80;
+    color        : #ffffff80;
     margin-bottom: 16px;
  }
 
  .extra_font {
     font-family: "Dancing Script", cursive;
-    font-style: italic;
+    font-style : italic;
  }
 
  .hero_btn {
-    display: flex;
+    display        : flex;
     justify-content: around;
-    align-items: center;
-    gap: 20px;
+    align-items    : center;
+    gap            : 20px;
  }
 
  .hero_btn button {
-    padding: 12px 25px;
-    font-size: 14px;
-    color: white;
+    padding      : 12px 25px;
+    font-size    : 14px;
+    color        : white;
     border-radius: 50px;
-    cursor: pointer;
+    cursor       : pointer;
  }
 
  .hero_btn button:first-child {
     background-color: #E6533C;
-    border: none;
+    border          : none;
 
  }
 
  .hero_btn button:last-child {
 
-    border: 1px solid rgb(255, 255, 255);
+    border          : 1px solid rgb(255, 255, 255);
     background-color: Transparent;
 
 
  }
 
  .hero_section {
-    display: flex;
+    display        : flex;
     justify-content: space-between;
-    align-items: center;
+    align-items    : center;
 
  }
 
@@ -138,116 +143,294 @@
  }
 
  .hero_img img {
-    width: 100%;
+    width : 100%;
     height: auto;
  }
 
  .tol_tip_1 {
-    width: 193px;
-    height: 98px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    width        : 193px;
+    height       : 98px;
+    box-sizing   : border-box;
+    border       : 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
 
     backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-    padding: 10px 15px;
-    position: absolute;
-    right: -26%;
-    top: 20%;
+    background     : rgba(255, 255, 255, 0.1);
+    padding        : 10px 15px;
+    position       : absolute;
+    right          : -26%;
+    top            : 20%;
  }
 
  .tol_tip_1 h2 {
-    color: white;
-    font-size: 40px;
+    color      : white;
+    font-size  : 40px;
     font-weight: 900;
  }
 
- .tol_tip_1,.tol_right p {
+ .tol_tip_1,
+ .tol_right p {
     color: rgba(255, 255, 255, 0.65);
 
  }
 
  .tol_tip_2 {
-    width: 193px;
-    height: 98px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    width        : 193px;
+    height       : 98px;
+    box-sizing   : border-box;
+    border       : 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
 
     backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
-    display: flex;
+    background     : rgba(48, 48, 48, 0.54);
+    display        : flex;
     justify-content: space-around;
-    align-items: center;
+    align-items    : center;
 
     position: absolute;
-    bottom: 10%;
-    left: -25%;
+    bottom  : 10%;
+    left    : -25%;
  }
 
  .tol_left i {
     color: #E6533C;
  }
 
- .tol_right h2{
-   color: white;
-   font-size: 40px;
-   font-weight: 900;
+ .tol_right h2 {
+    color      : white;
+    font-size  : 40px;
+    font-weight: 900;
  }
 
 
 
+ .habit {
+    background-color: #000000;
+    text-align      : center;
+    color           : white;
+ }
 
+ .habit_text h1 {
+    color         : #ffffff;
+    font-size     : 3rem;
+    padding-bottom: 0.625rem;
+ }
+
+ .habit_text p {
+    color         : #ffffff80;
+    padding-bottom: 6.125rem;
+ }
+
+ .habit_img img {
+    border-radius: 50%;
+ }
+
+ .habit_img {
+    padding-bottom: 0.625rem;
+ }
+
+ .habit_grid_text h4 {
+    font-size     : 1.125rem;
+    padding-bottom: 0.625rem;
+ }
+
+ .habit_grid_text p {
+    color    : #ffffff80;
+    font-size: 14px;
+ }
+
+ .habit_grids {
+    display              : grid;
+    grid-template-columns: repeat(4, 1fr);
+ }
+
+ .extra {
+    background-color: #000000;
+ }
+
+ .extra_mile {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+ }
+
+ .extra_mile_img img {
+    width : 100%;
+    height: auto;
+    border-radius: 18px;
+ }
+
+ .extra_mile_text h1 {
+    font-size     : 3rem;
+    font-weight   : 900;
+    color         : #ffffff;
+    padding-bottom: 1.85rem;
+ }
+
+ .extra_mile_text p {
+    color      : #ffffff80;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 1.85rem;
+ }
+
+ .extra_mile{
+   border-radius: 18px;
+   background: rgb(34, 34, 34);
+   padding: 30px;
+ }
+
+ .extra_mile_text button{
+   padding      : 12px 60px;
+   font-size    : 14px;
+   color        : white;
+   border-radius: 50px;
+   cursor       : pointer;
+   background-color:#E6533C;
+   border: none;
+ }
+
+ .divider2{
+   padding: 30px;
+   margin: -2px 0px;
+   background-color: #000000;
+ }
+
+ .bmi{
+   width: 671px;
+   margin: 0 auto;
+   background-color: #000000;
+   padding: 40px 0px;
+ }
+
+ .bmi h1{
+   color: #ffffff;
+   font-size: 48px;
+font-weight: 900;
+padding-bottom: 1rem;
+ }
+
+ .bmi p{
+   color: #ffffff80;
+ }
+
+ .bmi_calculator{
+   padding: 50px 0px;
+   display: flex;
+   justify-content: space-between;
+ }
+  
+.bmi_table{
+   width: 45%;
+}
+.bmi_table h2{
+   padding-bottom: 2rem;
+   color: #ffffff;
+   font-size: 1.75rem;
+   font-weight: 900;
+}
+
+ .bmi_table table, th, td {
+   border: 1px solid #ffffff1a;
+   border-collapse: collapse;
+   padding:8px 10px;
+   color: #ffffff80;
+ }
+
+  .bmi_input h2{
+   padding-bottom: 1rem;
+   color: #ffffff;
+   font-size: 1.75rem;
+   font-weight: 900;
+  }
+  .bmi_input p{
+   color: #ffffff80;
+  }
 
  /* media query ___  */
 
 
  @media only screen and (max-width: 576px) {
-    .hamburger {
+    
+   .bmi{
+      width: 85%;
+      margin: 0 auto;
+   }
+   
+   .hamburger {
        display: block;
+    }
+
+    .divider {
+       padding: 30px;
+       margin : -2px 0px;
     }
 
     .nav_items {
        display: none;
     }
 
-    .hero_section{
-      flex-direction: column;
-    }
-    .hero{
-      height: 100vh;
-    }
-    .hero_img{
-      width: 92%;
+    .hero_section {
+       flex-direction: column;
     }
 
-    .tol_tip_1{
-        width: 146px;
-        height: 76px;
-        right: -5%;
-    }
-    .tol_tip_1 h2{
-      font-size: 30px;
-    }
-    .tol_tip_1 p{
-      font-size: 10.5px;
-    }
-    
-    .tol_tip_2{
-      width: 146px;
-      height: 76px;
-    }
-    .tol_right h2{
-      font-size: 30px;
+    .hero {
+       height: 100vh;
     }
 
-    .tol_right p{
-      font-size: 10.5px;
+    .hero_img {
+       width: 92%;
     }
 
-    .tol_tip_2{
+    .tol_tip_1 {
+       width : 146px;
+       height: 76px;
+       right : -5%;
+    }
+
+    .tol_tip_1 h2 {
+       font-size: 30px;
+    }
+
+    .tol_tip_1 p {
+       font-size: 10.5px;
+    }
+
+    .tol_tip_2 {
+       width : 146px;
+       height: 76px;
+    }
+
+    .tol_right h2 {
+       font-size: 30px;
+    }
+
+    .tol_right p {
+       font-size: 10.5px;
+    }
+
+    .tol_tip_2 {
        left: -5%;
     }
+
+    .habit_grids {
+       grid-template-columns: repeat(1, auto);
+    }
+
+
+    .habit_grid_text p {
+       padding-bottom: 0.625rem;
+    }
     
+
+    .extra_mile{
+      flex-direction: column;
+    }
+    
+    .extra_mile_text{
+      padding-bottom: 3rem;
+    }
+
+
  }
