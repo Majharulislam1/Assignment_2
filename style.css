@@ -475,6 +475,79 @@ padding: 1.25rem;
       color: #ffffff80;
   }
 
+  .working_hours{
+   color: white;
+   text-align: center;
+   padding: 4rem 0;
+  }
+
+  .working_hours h1{
+   font-size: 3rem;
+   padding-bottom: 1rem;
+   font-weight: 900;
+  }
+
+  .working_hours p{
+   color: #ffffff80;
+   padding-bottom: 2rem;
+  }
+
+  .pricing_card{
+      color: white;
+  }
+
+  .pricing_card h3{
+      font-size: 1.5rem;
+      font-weight: 900;
+      padding-bottom: 1rem;
+  }
+
+  .pricing_card > p{
+      color: #ffffff80;
+      padding-bottom: 0.8rem;
+  }
+  .pricing_card h1{
+     font-size: 3rem;
+     font-weight: 900;
+     color: #E6533C;
+     padding-bottom: 1rem;
+  }
+  
+  .gym_des p i{
+     color: #E6533C;
+  }
+
+  .gym_des p{
+     color: #ffffff80;
+  }
+
+  .gym_des {
+     padding-bottom: 2rem;
+  }
+   
+  .pricing_card button{
+     padding      : 12px 60px;
+   font-size    : 14px;
+   color        : white;
+   border-radius: 50px;
+   cursor       : pointer;
+   background-color:#E6533C;
+   border: none;
+   margin-top: 10px;
+  }
+  .pricing_card{
+   background: rgba(255, 255, 255, 0.1);
+   padding: 1.5rem;
+   border-radius: 18px;
+  
+  }
+
+  .pricing_table{
+     display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1rem;
+  }
+
  /* media query ___  */
 
 
@@ -482,7 +555,13 @@ padding: 1.25rem;
    .bmi_calculator{
       flex-direction: column;
    }
-
+   
+   .pricing_table{
+       grid-template-columns: repeat(1,1fr);
+   }
+   .pricing_card{
+       margin-bottom: 0.7rem;
+   }
    .footer_content{
        grid-template-columns: 1fr;
    }
