@@ -393,6 +393,9 @@ padding-bottom: 1rem;
       font-size: 3rem;
       padding-bottom: 1rem;
   }
+  .team_heading p{
+   color: #ffffff80;
+  }
 
   .team_text{
    color: white;
